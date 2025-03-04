@@ -55,3 +55,28 @@ By exhaustively searching through combinations of potential stocks, it aims to f
 
 ---
 
+## Performance Analysis
+
+1. **Overall Return and Growth**
+- Date Range: May 23, 2013 – February 28, 2025 (about 11.77 years).
+- Final Portfolio Value: 14.85, which corresponds to a total return of +1,384.58%.
+- Benchmark (SPY) Value: 4.43, a total return of +343.02% over the same period.
+![daily_r](https://github.com/user-attachments/assets/b3445b64-58c0-4b08-9e60-fd805faa5e81)
+
+2. **Volatility and Sharpe Ratio**
+- Annualized Volatility: 20.77% (Portfolio) vs. 16.83% (SPY).
+- Sharpe Ratio: 1.21 (Portfolio) vs. 0.84 (SPY).
+Volatility (standard deviation of returns) is higher in the portfolio—meaning that day-to‐day/month‐to‐month fluctuations are somewhat bigger than the market average.
+But the risk‐adjusted performance, captured by the Sharpe ratio, is still higher (1.21 vs. 0.84).
+
+3. **Drawdowns (Peak‐to‐Trough Losses)**
+- Max Drawdown: –25.84% (Portfolio) vs. –33.70% (SPY).
+![daily_d](https://github.com/user-attachments/assets/7b29ad91-6eb8-40eb-9d88-8898b76313f9)
+
+
+4. **Changing Allocations Over Time**
+- Owing to the selection of only 8 out of 14 possible tickers, the portfolio can become heavily concentrated in strong performers. This cuts both ways—return potential is higher if correct, but sector or individual‐name risk could increase. However, the 30% weight cap helps limit risk from any single name.
+![daily_a](https://github.com/user-attachments/assets/ff8c4fb9-a550-4f06-a43b-02c070132e59)
+
+
+
